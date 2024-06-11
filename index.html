@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="logo.png" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand">
+          <img src="logo.png" alt="Spotify" id="img-n" />Spotify
+        </li>
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+    </nav>
+    <div class="mar">
+      <div class="container">
+        <h1>Top Songs</h1>
+        <div class="songlist">
+          <div id="1" class="song">
+            <img src="covers/1.jpg" />
+            <h1>Warriyo - Mortals [NCS Release]</h1>
+          </div>
+          <div id="2" class="song">
+            <img src="covers/2.jpg" />
+            <h1>Cielo - Huma-Huma</h1>
+          </div>
+          <div id="3" class="song">
+            <img src="covers/3.jpg" />
+            <h1>Different Heaven & EH!DE - My Heart [NCS Release]</h1>
+          </div>
+          <div id="4" class="song">
+            <img src="covers/4.jpg" />
+            <h1>DEAF KEV - Invincible [NCS Release]-320k</h1>
+          </div>
+        </div>
+        <div class="songlist">
+          <div id="5" class="song">
+            <img src="covers/5.jpg" />
+            <h1>Janji-Heroes-Tonight-feat-Johnning-NCS-Release</h1>
+          </div>
+          <div id="6" class="song">
+            <img src="covers/6.jpg" />
+            <h1>Rabba - Salam-e-Ishq</h1>
+          </div>
+          <div id="7" class="song">
+            <img src="covers/7.jpg" />
+            <h1>Sakhiyaan - Salam-e-Ishq</h1>
+          </div>
+          <div id="8" class="song">
+            <img src="covers/8.jpg" />
+            <h1>Cielo - Huma-Huma</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottom">
+      <input
+        type="range"
+        id="progress"
+        name="range"
+        min="0"
+        value="0"
+        max="100"
+      />
+      <div class="song-info">
+        <img id="gif" src="playing.gif" width="60px" /><span id="name"
+          >Warriyo - Mortals [NCS Release]</span
+        >
+      </div>
+      <div class="icons">
+        <i class="fas fa-3x fa-step-backward" id="previous"></i>
+        <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+        <i class="fas fa-3x fa-step-forward" id="next"></i>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/e1b86e0937.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="index.js"></script>
+</html>
